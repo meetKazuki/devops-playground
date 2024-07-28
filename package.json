@@ -1,0 +1,26 @@
+{
+  "name": "devops-playground",
+  "version": "1.0.0",
+  "description": "Example to apply my DevOps learning(s) on",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "heroku"
+  ],
+  "author": "Desmond Edem",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg-promise": "^11.9.1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
